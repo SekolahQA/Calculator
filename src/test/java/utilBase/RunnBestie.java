@@ -1,14 +1,15 @@
-package com.sekolahqa.Runner;
+package utilBase;
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@TagTest",
-        features={"src/test/resources/features"},
-        glue={"com.sekolahqa.Runner", "StepDefinitions"},
+        tags = "@EditInfo",
+        features = {"src/test/resources/features/"},
+        glue = {"utilBase","stepsDefi"},
         plugin = {"pretty","html:target/report/cucumber-report.html","json:target/report/cucumber-report.json"}
 )
-public class Runner {
+public class RunnBestie{
 }
