@@ -45,7 +45,7 @@ public class LoginVpage extends BaseTClass {
     }
 
     public void veriPage(){
-        Assertions.assertEquals(verifa.getText(),"Dashboard");
+        Assertions.assertEquals("Dashboard",verifa.getText());
         String result = verifa.getText();
         System.out.println(result);
     }

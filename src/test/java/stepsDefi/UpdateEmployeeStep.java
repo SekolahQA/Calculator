@@ -39,7 +39,6 @@ public class UpdateEmployeeStep {
 //        update.esteh();
         update.genDer();
 //        update.handle();
-        Thread.sleep(3000);
 //        update.setMar1();
 
     }
