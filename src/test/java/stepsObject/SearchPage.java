@@ -31,7 +31,7 @@ public class SearchPage extends BaseTClass {
     }
 
     public void validPage(){
-        Assertions.assertEquals(validSearch.getText(),"Sekolah QA Online 16+ Minggu dan Penyaluran Kerja");
+        Assertions.assertEquals("Sekolah QA Online 16+ Minggu dan Penyaluran Kerja",validSearch.getText());
     }
 
 
