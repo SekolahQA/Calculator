@@ -161,7 +161,7 @@ public class AddEmployeePage extends BaseTClass {
     }
 
     public void verifPage(){
-        Assertions.assertEquals(verrrrri.getText(),"Personal Details");
+        Assertions.assertEquals("Personal Details",verrrrri.getText());
     }
 
     public void myInfoCheck(){

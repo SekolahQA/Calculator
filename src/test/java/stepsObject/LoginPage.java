@@ -39,7 +39,7 @@ public class LoginPage extends BaseTClass {
 
     public void validPage(){
         String result = verrrrri.getText();
-        Assertions.assertEquals(verrrrri.getText(),"Dashboard");
+        Assertions.assertEquals("Dashboard",verrrrri.getText());
 //        System.out.println(result+"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
     }
 
